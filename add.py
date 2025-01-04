@@ -1,5 +1,3 @@
-import requests
-
 # Your access token (use the one you obtained earlier)
 access_token = 'BQBvdpHzHz___(___)___95Eu__dTi-XQExKOjIs2rsVgei-smz7Kso4Xm'
 

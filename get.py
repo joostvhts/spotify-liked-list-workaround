@@ -1,5 +1,3 @@
-import requests
-
 # Access token you got from the previous step
 access_token = 'BQBvdpHzHzZT9ay___(___)___uo9Xm95Eu__dTi-XQExKOjIs2rsVgei-smz7Kso4Xm'  # Replace with the token you obtained
 headers = {
