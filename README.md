@@ -12,6 +12,7 @@ The set of scripts currently authenticates, then gets a list of the songs I've l
     - `client_id`
     - `client_secret`
     - `redirect_uri` (https://domain.tld/callback)
+- Create virtual python environment and install package `spotipy` from pip
 - Run script
 - Script will generate a link. After clicking the link and authenticating note the code at the end of the callback URL. Copy everything after `&code=`, paste this in the terminal prompt and hit enter.
 
