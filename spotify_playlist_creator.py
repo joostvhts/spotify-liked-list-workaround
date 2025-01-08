@@ -1,4 +1,5 @@
-# spotify_playlist_creator.py
+# spotify_playlist_creator.py, by Anthropic's Claude, then checked and tweaked by me
+
 import configparser
 import os
 from datetime import datetime
