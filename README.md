@@ -7,18 +7,12 @@ I refuse to update my Spotify app on Android since they just love breaking thing
 The set of scripts currently authenticates, then gets a list of the songs I've liked, then adds those songs to a specified existing playlist.
 
 ## Usage
-- Create application on Spotify's site (note the values for the next step)
-- Replace values for:
-    - `client_id`
-    - `client_secret`
-    - `redirect_uri` (https://domain.tld/callback)
+- (only first time)
+    - Create virtual python environment and install package `spotipy` from pip
+    - Create application on Spotify's site (note the values for the next step)
+    - Replace values for:
+        - `client_id`
+        - `client_secret`
+        - `redirect_uri`
+- Activate the environment: `source ./.venv/bin/activate` (Linux)
 - Run script
-- Script will generate a link. After clicking the link and authenticating note the code at the end of the callback URL. Copy everything after `&code=`, paste this in the terminal prompt and hit enter.
-
-
-## To do
-- improve authentication stuff
-- have it create a new playlist instead of having to do that manually first
-- merge things into one script
-- ideally make this available for the world
-- somehow make Spotify go bankrupt to fix their monopoly
